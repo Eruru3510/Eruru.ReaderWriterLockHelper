@@ -5,28 +5,42 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{BF7708E8-97E2-4BB7-9EE3-91E1387F2974}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eruru.ReaderWriterLockHelper", "Eruru.ReaderWriterLockHelper\Eruru.ReaderWriterLockHelper.csproj", "{FAF2832C-109C-4D9A-A6DC-9872763B7CB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eruru.ReaderWriterLockHelper", "Eruru.ReaderWriterLockHelper\Eruru.ReaderWriterLockHelper.csproj", "{FAF2832C-109C-4D9A-A6DC-9872763B7CB7}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Eruru.ReaderWriterLockHelper For Shared Project", "Eruru.ReaderWriterLockHelper For Shared Project\Eruru.ReaderWriterLockHelper For Shared Project.shproj", "{18232ADC-1C95-46F8-96D6-6E9FD37808F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{7EFDAE29-7AC9-4F83-B419-216EF089A503}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Eruru.ReaderWriterLockHelper For Shared Project\Eruru.ReaderWriterLockHelper For Shared Project.projitems*{18232adc-1c95-46f8-96d6-6e9fd37808f8}*SharedItemsImports = 13
-		Eruru.ReaderWriterLockHelper For Shared Project\Eruru.ReaderWriterLockHelper For Shared Project.projitems*{faf2832c-109c-4d9a-a6dc-9872763b7cb7}*SharedItemsImports = 5
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BF7708E8-97E2-4BB7-9EE3-91E1387F2974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BF7708E8-97E2-4BB7-9EE3-91E1387F2974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7708E8-97E2-4BB7-9EE3-91E1387F2974}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BF7708E8-97E2-4BB7-9EE3-91E1387F2974}.Debug|x86.Build.0 = Debug|Any CPU
 		{BF7708E8-97E2-4BB7-9EE3-91E1387F2974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF7708E8-97E2-4BB7-9EE3-91E1387F2974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7708E8-97E2-4BB7-9EE3-91E1387F2974}.Release|x86.ActiveCfg = Release|Any CPU
+		{BF7708E8-97E2-4BB7-9EE3-91E1387F2974}.Release|x86.Build.0 = Release|Any CPU
 		{FAF2832C-109C-4D9A-A6DC-9872763B7CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FAF2832C-109C-4D9A-A6DC-9872763B7CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF2832C-109C-4D9A-A6DC-9872763B7CB7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FAF2832C-109C-4D9A-A6DC-9872763B7CB7}.Debug|x86.Build.0 = Debug|Any CPU
 		{FAF2832C-109C-4D9A-A6DC-9872763B7CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAF2832C-109C-4D9A-A6DC-9872763B7CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF2832C-109C-4D9A-A6DC-9872763B7CB7}.Release|x86.ActiveCfg = Release|Any CPU
+		{FAF2832C-109C-4D9A-A6DC-9872763B7CB7}.Release|x86.Build.0 = Release|Any CPU
+		{7EFDAE29-7AC9-4F83-B419-216EF089A503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFDAE29-7AC9-4F83-B419-216EF089A503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFDAE29-7AC9-4F83-B419-216EF089A503}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7EFDAE29-7AC9-4F83-B419-216EF089A503}.Debug|x86.Build.0 = Debug|Any CPU
+		{7EFDAE29-7AC9-4F83-B419-216EF089A503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFDAE29-7AC9-4F83-B419-216EF089A503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EFDAE29-7AC9-4F83-B419-216EF089A503}.Release|x86.ActiveCfg = Release|Any CPU
+		{7EFDAE29-7AC9-4F83-B419-216EF089A503}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
